@@ -4,7 +4,7 @@
   "description": "Capstone HTML project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "purge": "purgecss --css ./css/custom.css --content index.html -o ./css/style.css "
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/srizzuto/HTML-Capstone/issues"
   },
-  "homepage": "https://github.com/srizzuto/HTML-Capstone#readme"
+  "homepage": "https://github.com/srizzuto/HTML-Capstone#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "purgecss": "^4.0.3",
+    "sass": "^1.32.8"
+  }
 }
