@@ -1,0 +1,36 @@
+.glow-red {
+  color: $red;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+
+.glow-black {
+  color: $black;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px $red, 0 0 40px $red, 0 0 50px $red;
+    }
+    to {
+      text-shadow: 0 0 20px $red, 0 0 30px $red, 0 0 40px $red, 0 0 50px $red, 0 0 60px $red;
+    }
+  }
+
+  .card {
+    width: 18rem;
+  }
+
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .card-text:hover {
+    white-space: initial;
+  }

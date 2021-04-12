@@ -1,3 +1,36 @@
 $red: #d35266;
 $grey: #888888;
+$lightgrey:#f0f0f0;
 $black: #383838;
+
+.red {
+    color: $red;
+  }
+  
+  .grey {
+    color: $grey;
+  }
+
+  .lightgrey {
+    color: $lightgrey;
+  }
+  
+  .black {
+    color: $black;
+  }
+  
+  .bg-red {
+    background-color: $red;
+  }
+  
+  .bg-grey {
+    background-color: $grey;
+  }
+
+  .bg-lightgrey {
+    background-color: $lightgrey;
+  }
+  
+  .bg-black {
+    background-color: $black;
+  }

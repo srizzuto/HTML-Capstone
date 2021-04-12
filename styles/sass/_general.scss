@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $red;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.o-35 {
+  opacity: 0.35;
+}
+
+.ts-red {
+  text-shadow: 1px 1px $red;
+}

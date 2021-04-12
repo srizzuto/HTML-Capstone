@@ -1,25 +1,200 @@
 @font-face {
-  font-family: 'Helvetica Neue Bold';
-  src: url(/fonts/HelveticaNeueBold.ttf) format(truetype);
+  font-family: "Helvetica Neue Bold";
+  src: url(/styles/fonts/HelveticaNeueBold.ttf) format(truetype);
 }
 
 @font-face {
-  font-family: 'Helvetica Neue Light';
-  src: url(/fonts/helveticaNeueLight.ttf) format(truetype);
+  font-family: "Helvetica Neue Light";
+  src: url(/styles/fonts/helveticaNeueLight.ttf) format(truetype);
 }
 
 @font-face {
-  font-family: 'Helvetica Neue Medium';
-  src: url(/fonts/helveticaNeueMedium.ttf) format(truetype);
+  font-family: "Helvetica Neue Medium";
+  src: url(/styles/fonts/helveticaNeueMedium.ttf) format(truetype);
 }
 
 @font-face {
-  font-family: 'Gotham Bold';
-  src: url(/fonts/GothamBold.otf) format(opentype);
+  font-family: "Gotham Bold";
+  src: url(/styles/fonts/GothamBold.otf) format(opentype);
 }
 
 @font-face {
-  font-family: 'Gotham Rounded Light';
-  src: url(/fonts/GothamRoundedLight.otf) format(opentype);
+  font-family: "Gotham Rounded Light";
+  src: url(/styles/fonts/GothamRoundedLight.otf) format(opentype);
+}
+
+.helvetica-b {
+  font-family: "Helvetica Neue Bold";
+}
+
+.helvetica-l {
+  font-family: "Helvetica Neue Light";
+}
+
+.helvetica-m {
+  font-family: "Helvetica Neue Medium";
+}
+
+.gotham-b {
+  font-family: "Gotham Bold";
+}
+
+.gotham-r {
+  font-family: "Gotham Rounded Light";
+}
+
+.red {
+  color: #d35266;
+}
+
+.grey {
+  color: #888888;
+}
+
+.lightgrey {
+  color: #f0f0f0;
+}
+
+.black {
+  color: #383838;
+}
+
+.bg-red {
+  background-color: #d35266;
+}
+
+.bg-grey {
+  background-color: #888888;
+}
+
+.bg-lightgrey {
+  background-color: #f0f0f0;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d35266;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.o-35 {
+  opacity: 0.35;
+}
+
+.ts-red {
+  text-shadow: 1px 1px #d35266;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 25px;
+  transform: rotate(-45deg);
+  color: #d35266;
+  vertical-align: sub;
+}
+
+.icons {
+  font-size: 23px;
+  color: #d35266;
+  padding-top: 5px;
+}
+
+.burger > button {
+  border: none;
+  background-color: #383838;
+}
+
+.burger > button > div {
+  height: 3px;
+  width: 23px;
+  background-color: #d35266;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav-links {
+  top: 49px;
+  width: 100%;
+  position: absolute;
+  background-color: #383838;
+  justify-content: left;
+  opacity: 0.9;
+}
+
+.list-group-item1 {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.social {
+  font-size: 25px;
+}
+
+.i-bottom {
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.glow-red {
+  color: #d35266;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.glow-black {
+  color: #383838;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px #d35266, 0 0 40px #d35266, 0 0 50px #d35266;
+  }
+  to {
+    text-shadow: 0 0 20px #d35266, 0 0 30px #d35266, 0 0 40px #d35266, 0 0 50px #d35266, 0 0 60px #d35266;
+  }
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text:hover {
+  white-space: initial;
 }
 /*# sourceMappingURL=style.css.map */

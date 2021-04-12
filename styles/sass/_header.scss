@@ -1,0 +1,44 @@
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 25px;
+  transform: rotate(-45deg);
+  color: $red;
+  vertical-align: sub;
+}
+
+.icons {
+  font-size: 23px;
+  color: $red;
+  padding-top: 5px;
+}
+
+.burger > button {
+  border: none;
+  background-color: $black;
+}
+
+.burger > button > div {
+  height: 3px;
+  width: 23px;
+  background-color: $red;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.nav-links {
+  top: 49px;
+  width: 100%;
+  position: absolute;
+  background-color: $black;
+  justify-content: left;
+  opacity: 0.9;
+}
+

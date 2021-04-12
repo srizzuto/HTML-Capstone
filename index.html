@@ -6,13 +6,348 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/css/style.css">
+    <!-- Icons-->
+    <script src="https://kit.fontawesome.com/e5f6a0ea9d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>G-WORLD: Gaming Platform</title>
 </head>
 
 <body>
+    <div class="overflow-hidden position-relative container-fluid black bg-lightgrey">
+        <header id="header">
+            <nav class="top-nav px-0 container-fluid bg-black text-center">
+                <div class="py-2 container-fluid mx-0 border-bottom">
+                    <i class="fas fa-gamepad i-top logo"></i><span class="grey ms-1 pe-4 helvetica-b">G-WORLD</span>
+                </div>
+                <div class="d-flex justify-content-around py-2 px-0 position-relative">
+                    <div>
+                        <a href="#header"><i class="fas fa-home red icons"></i></a>
+                    </div>
+                    <div>
+                        <i class="fas fa-search icons"></i>
+                    </div>
+                    <div class="burger dropdown" id="b-override">
+                        <button class="bg-black p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="collapse"
+                            data-bs-target="#burger-collapse" aria-expanded="false" aria-controls="collapseExample">
+                            <div class="b-line1"></div>
+                            <div class="b-line2"></div>
+                            <div class="b-line3"></div>
+                        </button>
+                    </div>
+                    <ul class="nav-links list-unstyled collapse bg-black" aria-labelledby="dropdownMenuButton1"
+                        id="burger-collapse">
+                        <li class="mt-1">
+                            <a class="text-decoration-none bg-black red" href="#">GAMES</a>
+                        </li>
+                        <li class="mt-1">
+                            <a class="text-decoration-none red" href="#">NEWS</a>
+                        </li>
+                        <li class="mt-1">
+                            <a class="text-decoration-none red" href="#">PURCHASE BAG</a>
+                        </li>
+                        <li class="dropdown-divider bg-red mb-0"></li>
+                        <li class="bg-red">
+                            <a class="text-decoration-none black" href="#">LOG IN</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-fluid">
+                <div>
+                    <h4 class="grey border-bottom"><i class="fas fa-fire me-2 mw-100"></i>MOST POPULAR</h4>
+                    <div class="row gap-3 m-0 p-0 justify-content-center">
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top img-responsive" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h4 class="grey border-bottom"><i class="fas fa-percentage me-2 mw-100"></i></i>ON DISCOUNT</h4>
+                    <div class="row gap-3 m-0 p-0 justify-content-center">
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5">
+                    <h4 class="grey border-bottom"><i class="fas fa-ghost me-2 mw-100"></i></i>ABANDONWARE</h4>
+                    <div class="row gap-3 m-0 p-0 justify-content-center">
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top img-responsive" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                        <div class="card mt-3 col-5">
+                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="card-body">
+                                <h5 class="card-title">CYBERPUNK 2077</h5>
+                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                </p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item1">Genre: Open World RPG </li>
+                                <li class="list-group-item1">Single Player</li>
+                                <li class="list-group-item1 text-center glow-red">$200</li>
+                            </ul>
+                            <div class="card-body d-flex justify-content-around">
+                                <a href="#" class="icons red"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="icons red"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="mt-4 position-relative w-100 bottom-0">
+            <nav>
+                <div>
+                    <ul class="list-unstyled d-flex d-wrap mb-1 justify-content-around border-top pt-1">
+                        <li><a class="text-decoration-none grey" href="#">Terms of Use</a></li>
+                        <li><a class="text-decoration-none grey" href="#">Privacy Policy</a></li>
+                        <li><a class="text-decoration-none grey" href="#">Contact Us</a></li>
+                        <li><a class="text-decoration-none grey" href="#">Preferences</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom d-flex text-center d-block justify-content-around border-top">
+                    <div class="pt-2">
+                        <a href="#" class="text-decoration-none grey">
+                            <i class="fas fa-gamepad i-bottom logo"></i><span
+                                class="grey helvetica-b me-1 i-bottom">G-WORLD</span></a><br class="d-md-none"><span
+                            class="grey i-bottom">Copyright © 2021
+                            -
+                            G-World</span>
+                    </div>
+                    <ul class="list-unstyled d-flex flex-wrap mb-1 pt-2 justify-content-center">
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-facebook-square grey social"></i>
+                            </a>
+                        </li>
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-twitter grey social"></i>
+                            </a>
+                        </li>
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-instagram-square grey  social"></i>
+                            </a>
+                        </li>
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-tumblr grey  social"></i>
+                            </a>
+                        </li>
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-linkedin grey  social"></i>
+                            </a>
+                        </li>
+                    </ul>
 
+                </div>
+            </nav>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>
