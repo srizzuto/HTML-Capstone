@@ -20,17 +20,3 @@
       text-shadow: 0 0 20px $red, 0 0 30px $red, 0 0 40px $red, 0 0 50px $red, 0 0 60px $red;
     }
   }
-
-  .card {
-    width: 18rem;
-  }
-
-  .card-text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .card-text:hover {
-    white-space: initial;
-  }

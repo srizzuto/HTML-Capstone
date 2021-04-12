@@ -79,6 +79,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 635px;
 }
 
 a {
@@ -146,6 +147,10 @@ main {
   opacity: 0.9;
 }
 
+.size-25 {
+  font-size: 25px;
+}
+
 .list-group-item1 {
   position: relative;
   display: block;
@@ -154,6 +159,30 @@ main {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card {
+  width: 18rem;
+  font-size: 100%;
+}
+
+.card-title {
+  font-size: 90%;
+  flex-shrink: 1;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-text:hover {
+  white-space: initial;
+}
+
+.games-repository {
+  min-width: 414px;
 }
 
 .social {
@@ -184,17 +213,27 @@ main {
   }
 }
 
-.card {
-  width: 18rem;
-}
-
-.card-text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.card-text:hover {
-  white-space: initial;
+@media screen and (min-width: 768px) {
+  body {
+    min-width: 1024px;
+  }
+  .games-repository {
+    min-width: 732px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .card {
+    width: 18rem;
+    font-size: 100%;
+  }
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 100%;
+  }
+  .card-text:hover {
+    white-space: initial;
+  }
 }
 /*# sourceMappingURL=style.css.map */

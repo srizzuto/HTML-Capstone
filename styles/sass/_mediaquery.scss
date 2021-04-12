@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  body {
+      min-width: 1024px;
+  }
+  
+    .games-repository {
+    min-width: 732px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 18rem;
+    font-size: 100%;
+  }
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 100%;
+  }
+
+  .card-text:hover {
+    white-space: initial;
+  }
+}

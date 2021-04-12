@@ -8,3 +8,26 @@
     border: 1px solid rgba(0,0,0,.125);
 }
 
+.card {
+    width: 18rem;
+    font-size: 100%;
+  }
+
+.card-title {
+    font-size: 90%;
+    flex-shrink: 1;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-text:hover {
+    white-space: initial;
+}
+
+.games-repository {
+    min-width: 414px;
+}
