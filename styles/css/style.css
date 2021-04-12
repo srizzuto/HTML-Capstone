@@ -79,7 +79,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-width: 635px;
+  min-width: 320px;
 }
 
 a {
@@ -179,10 +179,6 @@ main {
 
 .card-text:hover {
   white-space: initial;
-}
-
-.games-repository {
-  min-width: 414px;
 }
 
 .social {
