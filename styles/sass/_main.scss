@@ -10,8 +10,9 @@
 
 .discount {
   position: absolute;
-  background-color: $black;
-  color: $red;
+  background-color: $red;
+  color: $black;
+  font-weight: bold;
   right: 0px;
   bottom: 0px;
   padding: 5px;
@@ -29,6 +30,16 @@
   width: 18rem;
   font-size: 100%;
   }
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+  max-width: 18vh;
+  max-height: 18vh;
+  margin: 0 auto;
+}
 
 .card-title {
   font-size: 90%;

@@ -18,17 +18,17 @@
     <div class="overflow-hidden position-relative container-fluid black bg-lightgrey justify-content-center px-md-0">
         <header id="header">
             <nav class="top-nav px-0 container-fluid bg-black text-center">
-                <div class="py-2 container-fluid mx-0 border-bottom">
+                <div class="d-md-none py-2 container-fluid mx-0 border-bottom">
                     <i class="fas fa-gamepad i-top logo"></i><span class="grey ms-1 pe-4 helvetica-b">G-WORLD</span>
                 </div>
-                <div class="d-flex justify-content-around py-2 px-0 position-relative">
-                    <div>
+                <div class="d-flex justify-content-around py-2 py-md-0 px-0 position-relative">
+                    <div class="d-md-none">
                         <a href="#header"><i class="fas fa-home red icons"></i></a>
                     </div>
-                    <div>
+                    <div class="d-md-none">
                         <i class="fas fa-search icons"></i>
                     </div>
-                    <div class="burger dropdown" id="b-override">
+                    <div class="burger dropdown d-md-none" id="b-override">
                         <button class="bg-black p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="collapse"
                             data-bs-target="#burger-collapse" aria-expanded="false" aria-controls="collapseExample">
                             <div class="b-line1"></div>
@@ -56,6 +56,22 @@
                                     class="fas fa-sign-in-alt me-2"></i>LOG IN</a>
                         </li>
                     </ul>
+                </div>
+                <div class="d-none d-md-flex justify-content-between container-fluid mx-0 p-0 w-75 m-md-auto">
+                    <div class="d-flex align-items-center m-2"><a class="text-decoration-none" href="#">
+                            <i class="fas fa-gamepad i-top logo"></i><span class="grey helvetica-b">G-WORLD</span>
+                        </a>
+                    </div>
+                    <ul class="list-unstyled d-flex align-items-center justify-content-between m-0">
+                        <li><a class="text-decoration-none bg-black red" href="#"><i
+                                    class="fas fa-gamepad me-2"></i>GAMES</a></li>
+                        <li class="ms-3"><a class="text-decoration-none red" href="#"><i
+                                    class="fas fa-heart me-2"></i>WISH
+                                LIST</a></li>
+                        <li class="ms-3"><a class="text-decoration-none red" href="#"><i
+                                    class="fas fa-shopping-cart me-2"></i>PURCHASE BAG</a></li>
+                    </ul>
+                    <a class="p-2 text-decoration-none bg-red black size-25" href="#">LOG IN</a>
                 </div>
             </nav>
             <div class="bg-header position-relative d-none d-md-block">
@@ -86,10 +102,17 @@
                                 placeholder="What game are you looking for?">
                             <datalist id="datalistOptions">
                                 <option value="Frostpunk">
-                                <option value="New York">
-                                <option value="Seattle">
-                                <option value="Los Angeles">
-                                <option value="Chicago">
+                                <option value="Monkey Island">
+                                <option value="Doom Eternal">
+                                <option value="NBA 2K20">
+                                <option value="Dune">
+                                <option value="Alpha Protocol"></option>
+                                <option value="Coverfire"></option>
+                                <option value="Stargrave"></option>
+                                <option value="PES 2021"></option>
+                                <option value="Wingman"></option>
+                                <option value="Red Baron"></option>
+                                <option value="Maniac Mansion"></option>
                             </datalist>
                         </div>
                         <div class="d-flex ms-3 pt-2">
@@ -103,7 +126,7 @@
         </header>
         <main>
             <div class="mw-75 w-md-75 container-fluid justify-content-center">
-                <div class="games-repository">
+                <div class="d-none d-md-block games-repository">
                     <div class="d-flex justify-content-between border-bottom">
                         <h4 class="grey"><i class="fas fa-star me-2 mw-100"></i></i>FEATURED</h4>
                     </div>
@@ -111,13 +134,14 @@
                         data-bs-ride="carousel">
                         <div class="carousel-inner mb-5">
                             <div class="carousel-item active img-featured text-center">
-                                <img src="/images/fallout-new-vegas.png" class="mh-100 mw-100" alt="...">
+                                <a href="#"><a href="#"><img src="/images/featured1.png" class="mh-100 mw-100"
+                                            alt="..."></a></a>
                             </div>
                             <div class="carousel-item  img-featured text-center">
-                                <img src="/images/shadows-of-mordor.png" class="mh-100 mw-100" alt="...">
+                                <a href="#"><img src="/images/featured2.png" class="mh-100 mw-100" alt="..."></a>
                             </div>
                             <div class="carousel-item  img-featured text-center">
-                                <img src="/images/monkey-island-bundle.png" class="mh-100 mw-100" alt="...">
+                                <a href="#"><img src="/images/featured3.png" class="mh-100 mw-100" alt="..."></a>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -140,7 +164,8 @@
                     <div
                         class="games-repository mt-3 mt-md-0 row gap-1 flex-md-nowrap m-auto p-0 justify-content-center">
                         <div class="card col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top img-responsive" alt="cyberpunk">
+                            <a href="#"><img src="/images/popular1.jpg" class="card-img-top img-responsive"
+                                    alt="cyberpunk"></a>
                             <div class="card-body">
                                 <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
@@ -158,11 +183,13 @@
                             </div>
                         </div>
                         <div class="card col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/popular2.png" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
-                                <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
-                                    Night City, a megalopolis obsessed with power, glamour and body modification.
+                                <h5 class="card-title d-flex justify-content-center">COVERFIRE</h5>
+                                <a href="">
+                                    <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
+                                </a>
+                                Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
                             </div>
                             <ul class="list-group list-group-flush">
@@ -176,9 +203,9 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/popular3.jpg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">STARGRAVE</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -194,9 +221,9 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/popular4.jpeg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">PES 2021</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -220,12 +247,12 @@
                     </div>
                     <div class="row gap-1 flex-md-nowrap m-auto mt-3 mt-md-0 p-0 pe-1 justify-content-center">
                         <div class="card col-5 mt-md-3 h-100 col-md-3 position-relative">
-                            <div class="position-relative">
-                                <img src="../images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="position-relative m-auto">
+                                <a href="#"><img src="images/discount1.png" class="card-img-top" alt="cyberpunk"></a>
                                 <div class="discount">-50%</div>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">ALPHA PROTOCOL</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -244,12 +271,12 @@
                             </div>
                         </div>
                         <div class="card col-5 mt-md-3 h-100 col-md-3">
-                            <div class="position-relative">
-                                <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="position-relative m-auto">
+                                <a href="#"><img src="/images/discount2.jpg" class="card-img-top" alt="cyberpunk"></a>
                                 <div class="discount">-50%</div>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">NBA 2k20</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -266,12 +293,12 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 mt-md-3 h-100 col-md-3">
-                            <div class="position-relative">
-                                <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="position-relative m-auto">
+                                <a href="#"><img src="/images/discount3.jpg" class="card-img-top" alt="cyberpunk"></a>
                                 <div class="discount">-50%</div>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">WINGMAN</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -288,12 +315,12 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 mt-md-3 h-100 col-md-3">
-                            <div class="position-relative">
-                                <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <div class="position-relative m-auto">
+                                <a href="#"><img src="/images/discount4.jpg" class="card-img-top" alt="cyberpunk"></a>
                                 <div class="discount">-50%</div>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">DOOM ETERNAL</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -320,9 +347,9 @@
                     </div>
                     <div class="row gap-1 flex-md-nowrap mt-3 mt-md-0 m-auto p-0 pe-1 justify-content-center">
                         <div class="card col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top img-responsive" alt="cyberpunk">
+                            <a href="#"><img src="/images/abandonware1.jpg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">MANIAC MANSION</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -338,9 +365,9 @@
                             </div>
                         </div>
                         <div class="card col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/abandonware2.jpg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">RED BARON</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -356,9 +383,9 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/abandonware3.jpeg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">DUNE</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -374,9 +401,9 @@
                             </div>
                         </div>
                         <div class="card mt-3 col-5 mt-md-3 h-100 col-md-3">
-                            <img src="/images/cyberpunk.jpg" class="card-img-top" alt="cyberpunk">
+                            <a href="#"><img src="/images/abandonware4.jpg" class="card-img-top" alt="cyberpunk"></a>
                             <div class="card-body">
-                                <h5 class="card-title d-flex justify-content-center">CYBERPUNK 2077</h5>
+                                <h5 class="card-title d-flex justify-content-center">MONKEY ISLAND</h5>
                                 <p class="card-text">Cyberpunk 2077 is an open-world, action-adventure story set in
                                     Night City, a megalopolis obsessed with power, glamour and body modification.
                                 </p>
@@ -395,15 +422,57 @@
                 </div>
             </div>
         </main>
-        <footer class="mt-4 position-relative w-100 bottom-0">
+        <footer class="mt-4 position-relative w-100 bottom-0 border-top">
             <nav>
-                <div>
-                    <ul class="list-unstyled d-flex d-wrap mb-1 justify-content-around border-top pt-1">
-                        <li><a class="text-decoration-none grey" href="#">Terms of Use</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Privacy Policy</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Contact Us</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Preferences</a></li>
-                    </ul>
+                <div class="d-md-flex align-items-center justify-content-around w-100 w-md-75 m-auto py-2">
+                    <div class="d-flex d-md-block">
+                        <h6 class=" text-center d-none d-md-block">Legal</h6>
+                        <ul class="list-unstyled d-flex d-md-block d-wrap mb-1 justify-content-around w-100 pt-1">
+                            <li><a class="text-decoration-none grey" href="#">Terms of Use</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Privacy Policy</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Contact Us</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Preferences</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <ul class="list-unstyled d-flex d-md-block d-wrap mb-1 justify-content-around  pt-1">
+                            <li><a class="text-decoration-none grey" href="#">RPG</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Strategy</a></li>
+                            <li><a class="text-decoration-none grey" href="#">MOBA</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Graphic Adventure</a></li>
+                            <li><a class="text-decoration-none grey" href="#">FPS</a></li>
+                        </ul>
+                    </div>
+                    <div class="d-none d-md-block h-100 border-left">
+                        <ul class="list-unstyled ps-4">
+                            <li><a class="text-decoration-none grey" href="#">English</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Español</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Français</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Deutsche</a></li>
+                        </ul>
+                        <ul class="d-none d-md-flex list-unstyled border-top mb-1 pt-3">
+                            <li class="p-1">
+                                <a class="d-flex text-decoration-none grey" href="#">
+                                    <i class="fab fa-facebook-square grey social"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a class="d-flex text-decoration-none grey" href="#">
+                                    <i class="fab fa-twitter grey social"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a class="d-flex text-decoration-none grey" href="#">
+                                    <i class="fab fa-instagram-square grey  social"></i>
+                                </a>
+                            </li>
+                            <li class="p-1">
+                                <a class="d-flex text-decoration-none grey" href="#">
+                                    <i class="fab fa-tumblr grey  social"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="footer-bottom d-flex text-center d-block justify-content-around border-top">
                     <div class="pt-2">
@@ -414,7 +483,7 @@
                             -
                             G-World</span>
                     </div>
-                    <ul class="list-unstyled d-flex flex-wrap mb-1 pt-2 justify-content-center">
+                    <ul class="list-unstyled d-md-none d-flex flex-wrap mb-1 pt-2 justify-content-center">
                         <li class="p-1">
                             <a class="" href="#">
                                 <i class="fab fa-facebook-square grey social"></i>
@@ -441,7 +510,6 @@
                             </a>
                         </li>
                     </ul>
-
                 </div>
             </nav>
         </footer>
