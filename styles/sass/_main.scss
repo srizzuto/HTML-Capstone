@@ -1,29 +1,46 @@
 .list-group-item1 {
-    position: relative;
-    display: block;
-    padding: .5rem 1rem;
-    color: #212529;
-    text-decoration: none;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.125);
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.discount {
+  position: absolute;
+  background-color: $black;
+  color: $red;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px;
+  opacity: 0.9;
+  width: 55px;
+  text-align: center;
+}
+
+.img-featured {
+  width: 300px;
+  height: 300px;
 }
 
 .card {
-    width: 18rem;
-    font-size: 100%;
+  width: 18rem;
+  font-size: 100%;
   }
 
 .card-title {
-    font-size: 90%;
-    flex-shrink: 1;
+  font-size: 90%;
+  flex-shrink: 1;
 }
 
 .card-text {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .card-text:hover {
-    white-space: initial;
+  white-space: initial;
 }

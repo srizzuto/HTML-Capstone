@@ -24,55 +24,55 @@
 }
 
 .helvetica-b {
-  font-family: "Helvetica Neue Bold";
+  font-family: "Helvetica Neue Bold" !important;
 }
 
 .helvetica-l {
-  font-family: "Helvetica Neue Light";
+  font-family: "Helvetica Neue Light" !important;
 }
 
 .helvetica-m {
-  font-family: "Helvetica Neue Medium";
+  font-family: "Helvetica Neue Medium" !important;
 }
 
 .gotham-b {
-  font-family: "Gotham Bold";
+  font-family: "Gotham Bold" !important;
 }
 
 .gotham-r {
-  font-family: "Gotham Rounded Light";
+  font-family: "Gotham Rounded Light" !important;
 }
 
 .red {
-  color: #d35266;
+  color: #d35266 !important;
 }
 
 .grey {
-  color: #888888;
+  color: #888888 !important;
 }
 
 .lightgrey {
-  color: #f0f0f0;
+  color: #f0f0f0 !important;
 }
 
 .black {
-  color: #383838;
+  color: #383838 !important;
 }
 
 .bg-red {
-  background-color: #d35266;
+  background-color: #d35266 !important;
 }
 
 .bg-grey {
-  background-color: #888888;
+  background-color: #888888 !important;
 }
 
 .bg-lightgrey {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0 !important;
 }
 
 .bg-black {
-  background-color: #383838;
+  background-color: #383838 !important;
 }
 
 body {
@@ -148,7 +148,7 @@ main {
 }
 
 .size-25 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .list-group-item1 {
@@ -159,6 +159,23 @@ main {
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.discount {
+  position: absolute;
+  background-color: #383838;
+  color: #d35266;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px;
+  opacity: 0.9;
+  width: 55px;
+  text-align: center;
+}
+
+.img-featured {
+  width: 300px;
+  height: 300px;
 }
 
 .card {
@@ -212,6 +229,32 @@ main {
 @media screen and (min-width: 768px) {
   body {
     min-width: 1024px;
+  }
+  .top-nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .bg-header {
+    background-image: url(/images/header.jpg);
+    width: 100%;
+    height: 240px;
+    padding-bottom: 15%;
+    background-color: #d35266;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .red-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom right, #d35266, #c27979, #d35266);
+    opacity: 0.9;
   }
   .games-repository {
     min-width: 732px;
