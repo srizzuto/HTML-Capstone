@@ -103,6 +103,10 @@ main {
   text-shadow: 1px 1px #d35266;
 }
 
+.border-grey {
+  border: 1px solid #888888;
+}
+
 .top-nav {
   position: fixed;
   top: 0;
@@ -289,5 +293,102 @@ main {
   .card-text:hover {
     white-space: initial;
   }
+}
+
+aside {
+  width: 35%;
+  height: 100%;
+  padding: 5px 10px 0px 10px;
+}
+
+body {
+  min-width: 767px;
+  background-color: #f0f0f0 !important;
+}
+
+.s-main {
+  margin-top: 120px;
+  width: 80%;
+  margin: 40px auto 10px;
+}
+
+.img-search {
+  display: block;
+  max-width: 228px;
+  min-width: 228px;
+  width: 228px;
+  height: 100%;
+}
+
+/* CHECKBOXES */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -1vh;
+  height: 15px;
+  width: 15px;
+  background-color: #383838;
+  opacity: 0.9;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #383838;
+  opacity: 0.9;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #383838;
+  opacity: 0.9;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #d35266;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #d35266 !important;
+  border-color: #d35266 !important;
+}
+
+.page-item .page-link {
+  z-index: 3;
+  color: #d35266;
+  background-color: white !important;
+  border-color: #d35266 !important;
 }
 /*# sourceMappingURL=style.css.map */

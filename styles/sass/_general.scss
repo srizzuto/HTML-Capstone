@@ -25,3 +25,7 @@ main {
 .ts-red {
   text-shadow: 1px 1px $red;
 }
+
+.border-grey {
+  border: 1px solid $grey;
+}
