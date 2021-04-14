@@ -2,7 +2,8 @@
   position: relative;
   display: block;
   padding: .5rem 1rem;
-  color: #212529;
+  color: $grey;
+  font-family: $helvetica-l;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0,0,0,.125);
@@ -44,12 +45,16 @@
 .card-title {
   font-size: 90%;
   flex-shrink: 1;
+  color: $red;
+  font-family: $gotham-b;
 }
 
 .card-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: $grey;
+  font-family: $gotham-r;
 }
 
 .card-text:hover {

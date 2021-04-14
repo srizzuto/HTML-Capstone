@@ -96,7 +96,13 @@
 @media screen and (max-width: 767px) {
   body {
     min-width: 766px;
+    max-width: 766px;
     background-color: $lightgrey !important;
+  }
+
+  .s-wrapper {
+    min-width: 766px;
+    width: 100%;
   }
 
   .w-sm-50 {
