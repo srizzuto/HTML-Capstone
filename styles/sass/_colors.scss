@@ -1,0 +1,36 @@
+$red: #d35266;
+$grey: #888888;
+$lightgrey:#f0f0f0;
+$black: #383838;
+
+.red {
+  color: $red !important;;
+  }
+  
+  .grey {
+  color: $grey !important;;
+  }
+
+  .lightgrey {
+  color: $lightgrey !important;;
+  }
+  
+  .black {
+  color: $black !important;;
+  }
+  
+  .bg-red {
+  background-color: $red !important;;
+  }
+  
+  .bg-grey {
+  background-color: $grey !important;;
+  }
+
+  .bg-lightgrey {
+  background-color: $lightgrey !important;;
+  }
+  
+  .bg-black {
+  background-color: $black !important;;
+  }

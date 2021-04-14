@@ -1,0 +1,62 @@
+.list-group-item1 {
+  position: relative;
+  display: block;
+  padding: .5rem 1rem;
+  color: $grey;
+  font-family: $helvetica-l;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.discount {
+  position: absolute;
+  background-color: $red;
+  color: $black;
+  font-weight: bold;
+  right: 0px;
+  bottom: 0px;
+  padding: 5px;
+  opacity: 0.9;
+  width: 55px;
+  text-align: center;
+}
+
+.img-featured {
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  width: 18rem;
+  font-size: 100%;
+  }
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+  max-width: 18vh;
+  max-height: 18vh;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-size: 90%;
+  flex-shrink: 1;
+  color: $red;
+  font-family: $gotham-b;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: $grey;
+  font-family: $gotham-r;
+}
+
+.card-text:hover {
+  white-space: initial;
+}
