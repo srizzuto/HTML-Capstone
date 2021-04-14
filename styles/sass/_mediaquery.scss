@@ -1,7 +1,29 @@
 @media screen and (min-width: 768px) {
   body {
-      min-width: 1024px !important ;
-      background-color: $lightgrey !important;
+    min-width: 1024px !important ;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: auto;
+    background-color: $lightgrey !important;
+  }
+
+  main {
+    min-width: 1024px !important ;
+    max-width: 1024px !important;
+    width: 100% !important;
+    margin: 120px auto 100px;
+  }
+
+  footer {
+    min-width: 1024px !important ;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  header {
+    min-width: 1024px !important ;
+    max-width: 100% !important;
+    width: 100% !important;
   }
 
   .top-nav {
@@ -14,7 +36,7 @@
   }
 
   .bg-header {
-    background-image: url(images/header.jpg);
+    background-image: url(./images/header.jpg);
     width: 100%;
     height: 240px;
     padding-bottom: 15%;
@@ -97,6 +119,7 @@
     margin: 120px auto 10px;
     width: 100%;
     min-width: 766px !important;
+    max-width: 766px !important;
   }
   
 }
