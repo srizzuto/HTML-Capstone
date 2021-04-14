@@ -1,5 +1,7 @@
 # HTML-Capstone
 
+![Screenshot](./images/readme_ss.png)
+
 > Capstone Project of the HTML/CSS section where technologies learned so far are applied to a game online store.
 
 ## Built With
