@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
   body {
-      min-width: 1024px;
+      min-width: 1024px !important ;
+      background-color: $lightgrey !important;
   }
 
   .top-nav {
@@ -13,7 +14,7 @@
   }
 
   .bg-header {
-    background-image: url(/images/header.jpg);
+    background-image: url(images/header.jpg);
     width: 100%;
     height: 240px;
     padding-bottom: 15%;
@@ -53,4 +54,49 @@
   .card-text:hover {
     white-space: initial;
   }
+
+  .border-t-md-red {
+    border-top: 1px solid $red;
+  }
+
+  .w-md-100 {
+    width: 100% !important;
+  }
+
+  .s-main {
+    margin-top: 120px;
+    width: 70%;
+    min-width: 929px;
+    margin: 40px auto 10px;
+ }  
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    min-width: 766px;
+    background-color: $lightgrey !important;
+  }
+
+  .w-sm-50 {
+    width: 50% !important;
+  }
+
+  .w-sm-75 {
+    width: 75% !important;
+  }
+
+  .w-sm-95 {
+    width: 95% !important;
+  }
+
+  .border-t-sm-red {
+    border-top: 1px solid $red;
+  }
+
+  .s-main {
+    margin: 120px auto 10px;
+    width: 100%;
+    min-width: 766px !important;
+  }
+  
 }

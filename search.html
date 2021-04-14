@@ -15,493 +15,537 @@
 </head>
 
 <body>
-    <header id="header">
-        <nav class="top-nav px-0 container-fluid bg-black text-center">
-            <div class="d-md-none py-2 container-fluid mx-0 border-bottom">
-                <i class="fas fa-gamepad i-top logo"></i><span class="grey ms-1 pe-4 helvetica-b">G-WORLD</span>
-            </div>
-            <div class="d-flex justify-content-around py-2 py-md-0 px-0 position-relative">
-                <div class="d-md-none">
-                    <a href="#header"><i class="fas fa-home red icons"></i></a>
+    <div class="overflow-hidden position-relative container-fluid black bg-lightgrey justify-content-center px-md-0">
+        <header id="header">
+            <nav class="top-nav px-0 container-fluid bg-black text-center">
+                <div class="d-md-none py-2 container-fluid mx-0 border-bottom">
+                    <i class="fas fa-gamepad i-top logo"></i><span class="grey ms-1 pe-4 helvetica-b">G-WORLD</span>
                 </div>
-                <div class="d-md-none dropdown">
-                    <button class="bg-black border-0 p-0" type="button" id="dropdownMenuButton1"
-                        data-bs-toggle="collapse" data-bs-target="#search-collapse" aria-expanded="false"
-                        aria-controls="#search-collapse"><i class="fas fa-search icons"></i>
-                    </button>
-                </div>
-                <ul class="nav-links d-md-none list-unstyled collapse bg-black red pt-2 justify-content-around text-start"
-                    aria-labelledby="dropdownMenuButton" id="search-collapse">
-                    <li>
-                        <h6>GENRE</h6>
-                        <ul class="list-unstyled">
-                            <li><label class="container">RPG
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li><label class="container">FPS
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li><label class="container">MOBA
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label></li>
+                <div class="d-flex justify-content-around py-2 py-md-0 px-0 position-relative">
+                    <div class="d-md-none">
+                        <a href="index.html"><i class="fas fa-home red icons"></i></a>
+                    </div>
+                    <div class="d-md-none dropdown">
+                        <button class="bg-black border-0 p-0" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="collapse" data-bs-target="#search-collapse" aria-expanded="false"
+                            aria-controls="#search-collapse"><i class="fas fa-search icons"></i>
+                        </button>
+                    </div>
+                    <ul class="nav-links d-md-none list-unstyled collapse bg-black red pt-2 justify-content-around text-start"
+                        aria-labelledby="dropdownMenuButton" id="search-collapse">
+                        <li class="ms-5">
+                            <h6>GENRE</h6>
+                            <ul class="list-unstyled border-t-sm-red">
+                                <li><label class="container mw-540">RPG
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="container mw-540">FPS
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="container mw-540">MOBA
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label></li>
 
-                            <li><label class="container">Graphic Adventure
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label></li>
+                                <li><label class="container mw-540">Graphic Adventure
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label></li>
 
-                            <li><label class="container">Strategy
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>CATEGORY</h6>
-                        <ul class="list-unstyled">
-                            <li><label class="container">Featured
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li><label class="container">Most Popular
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </li>
-                            <li><label class="container">Off Sale
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label></li>
+                                <li><label class="container mw-540">Strategy
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="ms-5">
+                            <h6>CATEGORY</h6>
+                            <ul class="list-unstyled border-t-sm-red">
+                                <li><label class="container mw-540">Featured
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="container mw-540">Most Popular
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                                <li><label class="container mw-540">Off Sale
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label></li>
 
-                            <li><label class="container">Abandonware
+                                <li><label class="container mw-540">Abandonware
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="ms-5">
+                            <h6>MISC</h6>
+                            <ul class="list-unstyled border-t-sm-red">
+                                <label class="container mw-540">Wish List
                                     <input type="checkbox">
                                     <span class="checkmark"></span>
                                 </label>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h6>MISC</h6>
-                        <ul class="list-unstyled"><label class="container">Wish List
+                        </li>
+                        <li><label class="container mw-540">Purchase Bag
                                 <input type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
-                    </li>
-                    <li><label class="container">Purchase Bag
-                            <input type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                    </li>
-                </ul>
-                </ul>
-                <div class="burger dropdown d-md-none" id="b-override">
-                    <button class="bg-black p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="collapse"
-                        data-bs-target="#burger-collapse" aria-expanded="false" aria-controls="#burger-collapse">
-                        <div class="b-line1"></div>
-                        <div class="b-line2"></div>
-                        <div class="b-line3"></div>
-                    </button>
-                </div>
-                <ul class="nav-links list-unstyled collapse bg-black" aria-labelledby="dropdownMenuButton1"
-                    id="burger-collapse">
-                    <li class="mt-1">
-                        <a class="text-decoration-none bg-black red size-25" href="#"><i
-                                class="fas fa-gamepad me-2"></i>GAMES</a>
-                    </li>
-                    <li class="mt-1">
-                        <a class="text-decoration-none red size-25" href="#"><i class="fas fa-heart  me-2"></i>WISH
-                            LIST</a>
-                    </li>
-                    <li class="mt-1">
-                        <a class="text-decoration-none red size-25" href="#"><i
-                                class="fas fa-shopping-cart me-2"></i>PURCHASE BAG</a>
-                    </li>
-                    <li class="dropdown-divider bg-red mb-0"></li>
-                    <li class="bg-red">
-                        <a class="text-decoration-none black size-25" href="#"><i
-                                class="fas fa-sign-in-alt me-2"></i>LOG IN</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-none d-md-flex justify-content-between container-fluid mx-0 p-0 w-75 m-md-auto">
-                <div class="d-flex align-items-center m-2"><a class="text-decoration-none" href="#">
-                        <i class="fas fa-gamepad i-top logo"></i><span class="grey helvetica-b">G-WORLD</span>
-                    </a>
-                </div>
-                <ul class="list-unstyled d-flex align-items-center justify-content-between m-0">
-                    <li><a class="text-decoration-none bg-black red" href="#"><i class="fas fa-home me-2"></i>HOME</a>
-                    </li>
-                    <li class="ms-3"><a class="text-decoration-none red" href="#"><i class="fas fa-heart me-2"></i>WISH
-                            LIST</a></li>
-                    <li class="ms-3"><a class="text-decoration-none red" href="#"><i
-                                class="fas fa-shopping-cart me-2"></i>PURCHASE BAG</a></li>
-                </ul>
-                <a class="p-2 text-decoration-none bg-red black size-25" href="#">LOG IN</a>
-            </div>
-        </nav>
-        <div class="bg-header position-relative d-none d-md-block">
-            <div class="red-cover">
-                <div class="container-fluid text-center pt-5 pb-5">
-                    <h1 class="text-white">G-WORLD</h1>
-                    <span class="text-white">You want it, we have it</span>
-                </div>
-                <div class="d-flex justify-content-center mx-auto">
-                    <div class="dropdown pt-2">
-                        <button class="btn btn-outline-secondary bg-white dropdown-toggle" type="button"
-                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            Select Genre
+                        </li>
+                    </ul>
+                    </ul>
+                    <div class="burger dropdown d-md-none" id="b-override">
+                        <button class="bg-black p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="collapse"
+                            data-bs-target="#burger-collapse" aria-expanded="false" aria-controls="#burger-collapse">
+                            <div class="b-line1"></div>
+                            <div class="b-line2"></div>
+                            <div class="b-line3"></div>
                         </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">RPG</a></li>
-                            <li><a class="dropdown-item" href="#">MOBA</a></li>
-                            <li><a class="dropdown-item" href="#">
-                            <li>Strategy</li></a></li>
-                            <li><a class="dropdown-item" href="#">Sports</a></li>
-                            <li><a class="dropdown-item" href="#">Indie</a></li>
-                            <li><a class="dropdown-item" href="#">Graphic Adventure</a></li>
+                    </div>
+                    <ul class="nav-links list-unstyled collapse bg-black" aria-labelledby="dropdownMenuButton1"
+                        id="burger-collapse">
+                        <li class="mt-1">
+                            <a class="text-decoration-none bg-black red size-25" href="#"><i
+                                    class="fas fa-gamepad me-2"></i>GAMES</a>
+                        </li>
+                        <li class="mt-1">
+                            <a class="text-decoration-none red size-25" href="#"><i class="fas fa-heart  me-2"></i>WISH
+                                LIST</a>
+                        </li>
+                        <li class="mt-1">
+                            <a class="text-decoration-none red size-25" href="#"><i
+                                    class="fas fa-shopping-cart me-2"></i>PURCHASE BAG</a>
+                        </li>
+                        <li class="dropdown-divider bg-red mb-0"></li>
+                        <li class="bg-red">
+                            <a class="text-decoration-none black size-25" href="#"><i
+                                    class="fas fa-sign-in-alt me-2"></i>LOG IN</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="top-nav px-0 container-fluid bg-black text-center">
+                    <div class="d-none d-md-flex justify-content-between container-fluid mx-0 p-0 w-75 m-md-auto">
+                        <div class="d-flex align-items-center m-2"><a class="text-decoration-none d-flex flex-nowrap"
+                                href="#">
+                                <i class="fas fa-gamepad i-top logo"></i><span
+                                    class="grey helvetica-b text-nowrap">G-WORLD</span>
+                            </a>
+                        </div>
+                        <ul class="list-unstyled d-flex align-items-center container-fluid my-0 me-auto p-0">
+                            <li><a class="ms-3 text-decoration-none bg-black red" href="#"><i
+                                        class="fas fa-home me-1"></i>HOME</a></li>
+                            <li class="ms-4"><a class="text-decoration-none grey" href="#"><i
+                                        class="fas fa-list me-1"></i>CATEGORIES</a></li>
+                            <li class="ms-4"><a class="text-decoration-none grey" href="search.html"><i
+                                        class="fas fa-search me-1"></i>SEARCH</a></li>
+                            <li class="ms-4">
+                                <a class="px-2 py-1 text-decoration-none bg-red text-white rounded" href="#">LOG
+                                    IN</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a class="text-decoration-none grey" href="#"><i
+                                    class="fas fa-envelope grey me-3"></i></a><a class="text-decoration-none grey"
+                                href="#"><img class="my-img" src="images/pfp.jpg" alt="me"></a>
+                        </div>
+
+                    </div>
+                </nav>
+            </nav>
+            <div class="bg-header position-relative d-none d-md-block">
+                <div class="red-cover">
+                    <div class="container-fluid text-center pt-5 pb-5">
+                        <h1 class="text-white">G-WORLD</h1>
+                        <span class="text-white">You want it, we have it</span>
+                    </div>
+                    <div class="d-flex justify-content-center mx-auto">
+                        <div class="dropdown pt-2">
+                            <button class="btn btn-outline-secondary bg-white dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select Genre
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">RPG</a></li>
+                                <li><a class="dropdown-item" href="#">MOBA</a></li>
+                                <li><a class="dropdown-item" href="#">
+                                <li>Strategy</li></a></li>
+                                <li><a class="dropdown-item" href="#">Sports</a></li>
+                                <li><a class="dropdown-item" href="#">Indie</a></li>
+                                <li><a class="dropdown-item" href="#">Graphic Adventure</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex ms-3 pt-2">
+                            <label for="dataList" class="form-label d-none">Game input</label>
+                            <input class="form-control" list="datalistOptions" id="dataList"
+                                placeholder="What game are you looking for?">
+                            <datalist id="datalistOptions">
+                                <option value="Frostpunk">
+                                <option value="Monkey Island">
+                                <option value="Doom Eternal">
+                                <option value="NBA 2K20">
+                                <option value="Dune">
+                                <option value="Alpha Protocol"></option>
+                                <option value="Coverfire"></option>
+                                <option value="Stargrave"></option>
+                                <option value="PES 2021"></option>
+                                <option value="Wingman"></option>
+                                <option value="Red Baron"></option>
+                                <option value="Maniac Mansion"></option>
+                            </datalist>
+                        </div>
+                        <div class="d-flex ms-3 pt-2">
+                            <button class="btn btn-outline-secondary bg-white" type="button" aria-expanded="false">
+                                Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="s-main">
+            <div class="container-fluid d-flex">
+                <aside class="d-none d-md-block bg-lightgrey border-start">
+                    <div>
+                        <div class="d-flex mb-2">
+                            <label>
+                                <input type="checkbox" name="rpg">Favorites
+                            </label>
+                            <label class="ms-2">
+                                <input type="checkbox" name="arcade"> On library
+                            </label>
+                        </div>
+                        <h4 class="mt-3">Category</h4>
+                        <div class="border-top pt-3">
+                            <label class="d-block">
+                                <input type="checkbox" name="rpg"> RPG
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="arcade"> Arcade
+                            </label>
+                            <label class="d-block"></label>
+                            <input type="checkbox" name="fps"> FPS
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="moba"> MOBA
+                            </label>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <label>
+                                <input type="checkbox" name="rpg">Favorites
+                            </label>
+                            <label class="ms-2">
+                                <input type="checkbox" name="arcade"> On library
+                            </label>
+                        </div>
+                        <h4 class="mt-3">Category</h4>
+                        <div class="border-top pt-3">
+                            <label class="d-block">
+                                <input type="checkbox" name="rpg"> RPG
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="arcade"> Arcade
+                            </label>
+                            <label class="d-block"></label>
+                            <input type="checkbox" name="fps"> FPS
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="moba"> MOBA
+                            </label>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <label>
+                                <input type="checkbox" name="rpg">Favorites
+                            </label>
+                            <label class="ms-2">
+                                <input type="checkbox" name="arcade"> On library
+                            </label>
+                        </div>
+                        <h4 class="mt-3">Category</h4>
+                        <div class="border-top pt-3">
+                            <label class="d-block">
+                                <input type="checkbox" name="rpg"> RPG
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="arcade"> Arcade
+                            </label>
+                            <label class="d-block"></label>
+                            <input type="checkbox" name="fps"> FPS
+                            </label>
+                            <label class="d-block">
+                                <input type="checkbox" name="moba"> MOBA
+                            </label>
+                        </div>
+                    </div>
+                </aside>
+                <div class="w-sm-95 w-md-100 text-center">
+                    <span class="container-fluid p-0 bg-lightgrey"><strong>38</strong> games found for your search.
+                        Please
+                        check
+                        below.</span>
+                    <div class="d-flex mt-3 p-3 border border-grey">
+                        <div>
+                            <img class="img-search" src="images/popular1.jpg" alt="popular1">
+                        </div>
+                        <div class="ps-3 text-start">
+                            <h3>CYBERPUNK 2077</h3>
+                            <div class="red my-2">On "Most Popular" Section</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
+                                voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis
+                                architecto
+                                exercitationem eaque tempora ullam omnis fugit ratione!</p>
+                            <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="grey">Available since March 8th</span>
+                                <div>
+                                    <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
+                                        Download Demo
+                                    </a>
+                                    <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
+                                        $45</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 p-3 border border-grey">
+                        <div>
+                            <img class="img-search" src="images/popular2.png" alt="popular1">
+                        </div>
+                        <div class="ps-3 text-start">
+                            <h3>COVERFIRE</h3>
+                            <div class="red my-2">On "Most Popular" Section</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
+                                voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis
+                                architecto
+                                exercitationem eaque tempora ullam omnis fugit ratione!</p>
+                            <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="grey">Available since March 8th</span>
+                                <div>
+                                    <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
+                                        Download Demo
+                                    </a>
+                                    <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
+                                        $45</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 p-3 border border-grey">
+                        <div>
+                            <img class="img-search" src="images/popular3.jpg" alt="popular1">
+                        </div>
+                        <div class="ps-3 text-start">
+                            <h3>STARGRAVE</h3>
+                            <div class="red my-2">On "Most Popular" Section</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
+                                voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis
+                                architecto
+                                exercitationem eaque tempora ullam omnis fugit ratione!</p>
+                            <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="grey">Available since March 8th</span>
+                                <div>
+                                    <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
+                                        Download Demo
+                                    </a>
+                                    <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
+                                        $45</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 p-3 border border-grey">
+                        <div>
+                            <img class="img-search" src="images/popular4.jpeg" alt="popular1">
+                        </div>
+                        <div class="ps-3 text-start">
+                            <h3>PES 2021</h3>
+                            <div class="red my-2">On "Most Popular" Section</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
+                                voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis
+                                architecto
+                                exercitationem eaque tempora ullam omnis fugit ratione!</p>
+                            <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="grey">Available since March 8th</span>
+                                <div>
+                                    <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
+                                        Download Demo
+                                    </a>
+                                    <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
+                                        $45</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex mt-3 p-3 border border-grey">
+                        <div>
+                            <img class="img-search" src="images/discount2.jpg" alt="popular1">
+                        </div>
+                        <div class="ps-3 text-start">
+                            <h3>NBA 2K20</h3>
+                            <div class="red my-2">On "Most Popular" Section</div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
+                                voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis
+                                architecto
+                                exercitationem eaque tempora ullam omnis fugit ratione!</p>
+                            <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
+                            <div class="d-flex justify-content-between">
+                                <span class="grey">Available since March 8th</span>
+                                <div>
+                                    <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
+                                        Download Demo
+                                    </a>
+                                    <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
+                                        $45</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="mt-4 d-flex justify-content-center" aria-label="Page navigation">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+        <footer class="mt-4 position-relative w-100 m-auto bottom-0 border-top">
+            <nav>
+                <div class="d-flex justify-content-center w-md-100 w-sm-50 m-auto py-2">
+                    <div class="d-none w-25 d-md-flex flex-column justify-content-center text-center mt-2">
+                        <div class="container-fluid text-center mb-4">
+                            <div class="footer-logo bg-grey rounded">
+                                <i class="fas fa-gamepad footer-logo-i pt-2"></i><span
+                                    class="grey helvetica-b footer-logo-text">G-WORLD</span>
+                            </div>
+                        </div>
+                        <p class="text-footer m-0 grey px-4">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Optio
+                            magnam
+                            quis
+                            debitis voluptate
+                            mollitia rerum temporibus necessitatibus id repellat vitae officiis, adipisci alias corrupti
+                            sit magni nisi exercitationem cupiditate a.
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <h6 class=" text-start d-md-block m-0 mb-1 red">CATEGORIES</h6>
+                        <div class="d-flex border-t-md-red  border-t-sm-red">
+                            <ul class="list-unstyled d-md-block d-wrap mb-1 justify-content-around  pt-1">
+                                <li><a class="text-decoration-none grey" href="#">RPG</a></li>
+                                <li><a class="text-decoration-none grey" href="#">Strategy</a></li>
+                                <li><a class="text-decoration-none grey" href="#">MOBA</a></li>
+                                <li><a class="text-decoration-none grey" href="#">Management</a></li>
+                                <li><a class="text-decoration-none grey" href="#">FPS</a></li>
+                            </ul>
+                            <ul class="list-unstyled d-md-block d-wrap mb-1 justify-content-around  pt-1 ms-4">
+                                <li><a class="text-decoration-none grey" href="#">RPG</a></li>
+                                <li><a class="text-decoration-none grey" href="#">Strategy</a></li>
+                                <li><a class="text-decoration-none grey" href="#">MOBA</a></li>
+                                <li><a class="text-decoration-none grey" href="#">Management</a></li>
+                                <li><a class="text-decoration-none grey" href="#">FPS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-5 ms-3 d-md-block">
+                        <h6 class=" text-start d-md-block m-0 mb-1 red">LEGAL</h6>
+                        <ul
+                            class="list-unstyled d-md-block d-wrap mb-1 justify-content-around w-100 pt-1 border-t-md-red border-t-sm-red">
+                            <li><a class="text-decoration-none grey" href="#">Terms of Use</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Privacy Policy</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Contact Us</a></li>
+                            <li><a class="text-decoration-none grey" href="#">Preferences</a></li>
                         </ul>
                     </div>
-                    <div class="d-flex ms-3 pt-2">
-                        <label for="dataList" class="form-label d-none">Game input</label>
-                        <input class="form-control" list="datalistOptions" id="dataList"
-                            placeholder="What game are you looking for?">
-                        <datalist id="datalistOptions">
-                            <option value="Frostpunk">
-                            <option value="Monkey Island">
-                            <option value="Doom Eternal">
-                            <option value="NBA 2K20">
-                            <option value="Dune">
-                            <option value="Alpha Protocol"></option>
-                            <option value="Coverfire"></option>
-                            <option value="Stargrave"></option>
-                            <option value="PES 2021"></option>
-                            <option value="Wingman"></option>
-                            <option value="Red Baron"></option>
-                            <option value="Maniac Mansion"></option>
-                        </datalist>
-                    </div>
-                    <div class="d-flex ms-3 pt-2">
-                        <button class="btn btn-outline-secondary bg-white" type="button" aria-expanded="false">
-                            Search
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main class="s-main">
-        <div class="container-fluid d-flex border-start">
-            <aside class="d-none d-md-block bg-lightgrey">
-                <div>
-                    <div class="d-flex mb-2">
-                        <label>
-                            <input type="checkbox" name="rpg">Favorites
-                        </label>
-                        <label class="ms-2">
-                            <input type="checkbox" name="arcade"> On library
-                        </label>
-                    </div>
-                    <h4 class="mt-3">Category</h4>
-                    <div class="border-top pt-3">
-                        <label class="d-block">
-                            <input type="checkbox" name="rpg"> RPG
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="arcade"> Arcade
-                        </label>
-                        <label class="d-block"></label>
-                        <input type="checkbox" name="fps"> FPS
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="moba"> MOBA
-                        </label>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <label>
-                            <input type="checkbox" name="rpg">Favorites
-                        </label>
-                        <label class="ms-2">
-                            <input type="checkbox" name="arcade"> On library
-                        </label>
-                    </div>
-                    <h4 class="mt-3">Category</h4>
-                    <div class="border-top pt-3">
-                        <label class="d-block">
-                            <input type="checkbox" name="rpg"> RPG
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="arcade"> Arcade
-                        </label>
-                        <label class="d-block"></label>
-                        <input type="checkbox" name="fps"> FPS
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="moba"> MOBA
-                        </label>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <label>
-                            <input type="checkbox" name="rpg">Favorites
-                        </label>
-                        <label class="ms-2">
-                            <input type="checkbox" name="arcade"> On library
-                        </label>
-                    </div>
-                    <h4 class="mt-3">Category</h4>
-                    <div class="border-top pt-3">
-                        <label class="d-block">
-                            <input type="checkbox" name="rpg"> RPG
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="arcade"> Arcade
-                        </label>
-                        <label class="d-block"></label>
-                        <input type="checkbox" name="fps"> FPS
-                        </label>
-                        <label class="d-block">
-                            <input type="checkbox" name="moba"> MOBA
-                        </label>
-                    </div>
-                </div>
-            </aside>
-            <div class="w-100 text-center">
-                <span class="container-fluid p-0 bg-lightgrey"><strong>38</strong> games found for your search. Please
-                    check
-                    below.</span>
-                <div class="d-flex mt-3 p-3 border border-grey">
-                    <div>
-                        <img class="img-search" src="images/popular1.jpg" alt="popular1">
-                    </div>
-                    <div class="ps-3 text-start">
-                        <h3>CYBERPUNK 2077</h3>
-                        <div class="red my-2">On "Most Popular" Section</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
-                            voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis architecto
-                            exercitationem eaque tempora ullam omnis fugit ratione!</p>
-                        <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
-                        <div class="d-flex justify-content-between">
-                            <span class="grey">Available since March 8th</span>
-                            <div>
-                                <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
-                                    Download Demo
-                                </a>
-                                <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
-                                    $45</a>
+                    <div class="d-none d-md-block mt-3 mx-5">
+                        <div>
+                            <div class="d-flex">
+                                <span class="d-flex align-self-center red">Language</span>
+                                <div class="border py-2 px-5 ms-4 grey">English</div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <div class="d-flex">
+                                <span class="d-flex align-self-center red">Language</span>
+                                <div class="border py-2 px-5 ms-4 grey">English</div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <div class="d-flex">
+                                <span class="d-flex align-self-center red">Language</span>
+                                <div class="border py-2 px-5 ms-4 grey">English</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex mt-3 p-3 border border-grey">
-                    <div>
-                        <img class="img-search" src="images/popular2.png" alt="popular1">
+                <div
+                    class="w-100 w-md-75 mx-auto footer-bottom d-flex text-center d-block justify-content-around p-5 pb-0">
+                    <div class="d-flex align-items-center">
+                        <a href="#" class="text-decoration-none grey">
+                            <i class="fas fa-gamepad i-bottom logo">
+
+                            </i><span class="grey helvetica-b me-1 i-bottom">G-WORLD</span>
+                        </a>
+                        <br class="d-md-none">
+                        <span class="grey i-bottom pt-1">Copyright © 2021
+                            -
+                            G-World
+                        </span>
                     </div>
-                    <div class="ps-3 text-start">
-                        <h3>COVERFIRE</h3>
-                        <div class="red my-2">On "Most Popular" Section</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
-                            voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis architecto
-                            exercitationem eaque tempora ullam omnis fugit ratione!</p>
-                        <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
-                        <div class="d-flex justify-content-between">
-                            <span class="grey">Available since March 8th</span>
-                            <div>
-                                <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
-                                    Download Demo
-                                </a>
-                                <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
-                                    $45</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex mt-3 p-3 border border-grey">
-                    <div>
-                        <img class="img-search" src="images/popular3.jpg" alt="popular1">
-                    </div>
-                    <div class="ps-3 text-start">
-                        <h3>STARGRAVE</h3>
-                        <div class="red my-2">On "Most Popular" Section</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
-                            voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis architecto
-                            exercitationem eaque tempora ullam omnis fugit ratione!</p>
-                        <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
-                        <div class="d-flex justify-content-between">
-                            <span class="grey">Available since March 8th</span>
-                            <div>
-                                <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
-                                    Download Demo
-                                </a>
-                                <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
-                                    $45</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex mt-3 p-3 border border-grey">
-                    <div>
-                        <img class="img-search" src="images/popular4.jpeg" alt="popular1">
-                    </div>
-                    <div class="ps-3 text-start">
-                        <h3>PES 2021</h3>
-                        <div class="red my-2">On "Most Popular" Section</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
-                            voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis architecto
-                            exercitationem eaque tempora ullam omnis fugit ratione!</p>
-                        <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
-                        <div class="d-flex justify-content-between">
-                            <span class="grey">Available since March 8th</span>
-                            <div>
-                                <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
-                                    Download Demo
-                                </a>
-                                <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
-                                    $45</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex mt-3 p-3 border border-grey">
-                    <div>
-                        <img class="img-search" src="images/discount2.jpg" alt="popular1">
-                    </div>
-                    <div class="ps-3 text-start">
-                        <h3>NBA 2K20</h3>
-                        <div class="red my-2">On "Most Popular" Section</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim rerum explicabo quidem
-                            voluptatem itaque dolores animi, libero commodi! Dolorum deserunt iure veritatis architecto
-                            exercitationem eaque tempora ullam omnis fugit ratione!</p>
-                        <p><strong class="me-2">Rate:</strong>Extremly Positive</p>
-                        <div class="d-flex justify-content-between">
-                            <span class="grey">Available since March 8th</span>
-                            <div>
-                                <a href="#" class="text-decoration-none bg-red text-white me-2 p-2 rounded">
-                                    Download Demo
-                                </a>
-                                <a href="#" class="text-decoration-none bg-red text-white p-2 rounded">
-                                    $45</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="mt-4 d-flex justify-content-center" aria-label="Page navigation">
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </main>
-    <footer class="mt-4 position-relative w-100 bottom-0 border-top">
-        <nav>
-            <div class="d-md-flex align-items-center justify-content-around w-100 w-md-75 m-auto py-2">
-                <div class="d-flex d-md-block">
-                    <h6 class=" text-center d-none d-md-block">Legal</h6>
-                    <ul class="list-unstyled d-flex d-md-block d-wrap mb-1 justify-content-around w-100 pt-1">
-                        <li><a class="text-decoration-none grey" href="#">Terms of Use</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Privacy Policy</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Contact Us</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Preferences</a></li>
-                    </ul>
-                </div>
-                <div class="d-none d-md-block">
-                    <ul class="list-unstyled d-flex d-md-block d-wrap mb-1 justify-content-around  pt-1">
-                        <li><a class="text-decoration-none grey" href="#">RPG</a></li>
-                        <li><a class="text-decoration-none grey" href="#">
-                        <li>Strategy</li></a></li>
-                        <li><a class="text-decoration-none grey" href="#">MOBA</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Graphic Adventure</a></li>
-                        <li><a class="text-decoration-none grey" href="#">FPS</a></li>
-                    </ul>
-                </div>
-                <div class="d-none d-md-block h-100 border-left">
-                    <ul class="list-unstyled ps-4">
-                        <li><a class="text-decoration-none grey" href="#">English</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Español</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Français</a></li>
-                        <li><a class="text-decoration-none grey" href="#">Deutsche</a></li>
-                    </ul>
-                    <ul class="d-none d-md-flex list-unstyled border-top mb-1 pt-3">
+                    <ul class="list-unstyled d-flex flex-wrap mb-1 pt-2 justify-content-center">
                         <li class="p-1">
-                            <a class="d-flex text-decoration-none grey" href="#">
+                            <a class="" href="#">
                                 <i class="fab fa-facebook-square grey social"></i>
                             </a>
                         </li>
                         <li class="p-1">
-                            <a class="d-flex text-decoration-none grey" href="#">
+                            <a class="" href="#">
                                 <i class="fab fa-twitter grey social"></i>
                             </a>
                         </li>
                         <li class="p-1">
-                            <a class="d-flex text-decoration-none grey" href="#">
+                            <a class="" href="#">
                                 <i class="fab fa-instagram-square grey  social"></i>
                             </a>
                         </li>
                         <li class="p-1">
-                            <a class="d-flex text-decoration-none grey" href="#">
+                            <a class="" href="#">
                                 <i class="fab fa-tumblr grey  social"></i>
+                            </a>
+                        </li>
+                        <li class="p-1">
+                            <a class="" href="#">
+                                <i class="fab fa-linkedin grey  social"></i>
                             </a>
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="footer-bottom d-flex text-center d-block justify-content-around border-top">
-                <div class="pt-2">
-                    <a href="#" class="text-decoration-none grey">
-                        <i class="fas fa-gamepad i-bottom logo"></i><span
-                            class="grey helvetica-b me-1 i-bottom">G-WORLD</span></a><br class="d-md-none"><span
-                        class="grey i-bottom">Copyright © 2021
-                        -
-                        G-World</span>
-                </div>
-                <ul class="list-unstyled d-md-none d-flex flex-wrap mb-1 pt-2 justify-content-center">
-                    <li class="p-1">
-                        <a class="" href="#">
-                            <i class="fab fa-facebook-square grey social"></i>
-                        </a>
-                    </li>
-                    <li class="p-1">
-                        <a class="" href="#">
-                            <i class="fab fa-twitter grey social"></i>
-                        </a>
-                    </li>
-                    <li class="p-1">
-                        <a class="" href="#">
-                            <i class="fab fa-instagram-square grey  social"></i>
-                        </a>
-                    </li>
-                    <li class="p-1">
-                        <a class="" href="#">
-                            <i class="fab fa-tumblr grey  social"></i>
-                        </a>
-                    </li>
-                    <li class="p-1">
-                        <a class="" href="#">
-                            <i class="fab fa-linkedin grey  social"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </footer>
+            </nav>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>

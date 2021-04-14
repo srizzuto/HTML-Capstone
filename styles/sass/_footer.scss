@@ -10,3 +10,31 @@
 .btn-outline-secondary:hover {
   color: $red !important;
 }
+
+.footer-logo {
+  width: 135px;
+  height: 50px;
+  margin: auto;
+  flex-wrap: nowrap;
+  padding-right: 5px;
+}
+
+.footer-logo-i {
+  font-size: 30px;
+  transform: rotate(-45deg);
+  color: $red;
+  margin-right: -5px;
+}
+
+.footer-logo-text {
+  text-align: justify;
+  display: inline-block;
+  font-size: 20px;
+  color: white !important;
+  padding-top: 10px;
+}
+
+.text-footer {
+  text-align: justify;
+  padding: 0 35px 0;
+}
