@@ -26,13 +26,13 @@
                         <a href="index.html"><i class="fas fa-home red icons"></i></a>
                     </div>
                     <div class="d-md-none dropdown">
-                        <button class="bg-black border-0 p-0" type="button" id="dropdownMenuButton1"
-                            data-bs-toggle="collapse" data-bs-target="#search-collapse" aria-expanded="false"
-                            aria-controls="#search-collapse"><i class="fas fa-search icons"></i>
+                        <button class="bg-black border-0 p-0" type="button" id="dropdownMenuButton3"
+                            data-bs-toggle="collapse" data-bs-target="#search-collapse" aria-expanded="false">
+                            <i class="fas fa-search icons"></i>
                         </button>
                     </div>
                     <ul class="nav-links d-md-none list-unstyled collapse bg-black red pt-2 justify-content-around text-start"
-                        aria-labelledby="dropdownMenuButton" id="search-collapse">
+                        aria-labelledby="dropdownMenuButton3" id="search-collapse">
                         <li class="ms-5">
                             <h6>GENRE</h6>
                             <ul class="list-unstyled border-t-sm-red">
@@ -91,28 +91,30 @@
                         <li class="ms-5">
                             <h6>MISC</h6>
                             <ul class="list-unstyled border-t-sm-red">
-                                <label class="container mw-540">Wish List
-                                    <input type="checkbox">
-                                    <span class="checkmark"></span>
-                                </label>
+                                <li>
+                                    <label class="container mw-540">Wish List
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+
+                                </li>
+                                <li><label class="container mw-540">Purchase Bag
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
                         </li>
-                        <li><label class="container mw-540">Purchase Bag
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </li>
-                    </ul>
                     </ul>
                     <div class="burger dropdown d-md-none" id="b-override">
-                        <button class="bg-black p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="collapse"
-                            data-bs-target="#burger-collapse" aria-expanded="false" aria-controls="#burger-collapse">
-                            <div class="b-line1"></div>
-                            <div class="b-line2"></div>
-                            <div class="b-line3"></div>
+                        <button class="bg-black p-0" type="button" id="dropdownMenuButton4" data-bs-toggle="collapse"
+                            data-bs-target="#burger-collapse" aria-expanded="false">
+                            <span class="d-block b-line1"></span>
+                            <span class="d-block b-line2"></span>
+                            <span class="d-block b-line3"></span>
                         </button>
                     </div>
-                    <ul class="nav-links list-unstyled collapse bg-black" aria-labelledby="dropdownMenuButton1"
-                        id="burger-collapse">
+                    <ul class="nav-links list-unstyled collapse bg-black" id="burger-collapse">
                         <li class="mt-1">
                             <a class="text-decoration-none bg-black red size-25" href="#"><i
                                     class="fas fa-gamepad me-2"></i>GAMES</a>
@@ -153,9 +155,12 @@
                             </li>
                         </ul>
                         <div class="d-flex align-items-center">
-                            <a class="text-decoration-none grey" href="#"><i
-                                    class="fas fa-envelope grey me-3"></i></a><a class="text-decoration-none grey"
-                                href="#"><img class="my-img" src="images/pfp.jpg" alt="me"></a>
+                            <a class="text-decoration-none grey" href="#">
+                                <i class="fas fa-envelope grey me-3"></i>
+                            </a>
+                            <a class="text-decoration-none grey" href="#"><img class="my-img" src="images/pfp.jpg"
+                                    alt="me">
+                            </a>
                         </div>
 
                     </div>
@@ -176,8 +181,7 @@
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a class="dropdown-item" href="#">RPG</a></li>
                                 <li><a class="dropdown-item" href="#">MOBA</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                <li>Strategy</li></a></li>
+                                <li><a class="dropdown-item" href="#">Strategy</a></li>
                                 <li><a class="dropdown-item" href="#">Sports</a></li>
                                 <li><a class="dropdown-item" href="#">Indie</a></li>
                                 <li><a class="dropdown-item" href="#">Graphic Adventure</a></li>
@@ -231,8 +235,8 @@
                             <label class="d-block">
                                 <input type="checkbox" name="arcade"> Arcade
                             </label>
-                            <label class="d-block"></label>
-                            <input type="checkbox" name="fps"> FPS
+                            <label class="d-block">
+                                <input type="checkbox" name="fps"> FPS
                             </label>
                             <label class="d-block">
                                 <input type="checkbox" name="moba"> MOBA
@@ -254,8 +258,8 @@
                             <label class="d-block">
                                 <input type="checkbox" name="arcade"> Arcade
                             </label>
-                            <label class="d-block"></label>
-                            <input type="checkbox" name="fps"> FPS
+                            <label class="d-block">
+                                <input type="checkbox" name="fps"> FPS
                             </label>
                             <label class="d-block">
                                 <input type="checkbox" name="moba"> MOBA
@@ -277,8 +281,8 @@
                             <label class="d-block">
                                 <input type="checkbox" name="arcade"> Arcade
                             </label>
-                            <label class="d-block"></label>
-                            <input type="checkbox" name="fps"> FPS
+                            <label class="d-block">
+                                <input type="checkbox" name="fps"> FPS
                             </label>
                             <label class="d-block">
                                 <input type="checkbox" name="moba"> MOBA

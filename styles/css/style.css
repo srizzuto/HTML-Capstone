@@ -135,7 +135,7 @@ main {
   background-color: #383838;
 }
 
-.burger > button > div {
+.burger > button > span {
   height: 3px;
   width: 23px;
   background-color: #d35266;
