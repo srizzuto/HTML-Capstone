@@ -1,4 +1,4 @@
-# HTML-Capstone
+# G-World: Games Store (HTML-Capstone)
 
 ![Screenshot](./images/readme_ss.png)
 
